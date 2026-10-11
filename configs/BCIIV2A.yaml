@@ -1,0 +1,21 @@
+#### Path ####
+DATA_PATH: "./Datasets/BCIIV2A/0-40"
+LOG_PATH: "./logs"
+CKPT_PATH: "./checkpoints"
+
+#### Setting step ####
+num_workers: 8
+momentum: 0.9
+
+#### Training step ####
+EPOCHS: 200
+batch_size: 16
+lr: 0.001
+betas: [ 0.9, 0.995 ]
+weight_decay: 0.05
+aug_times: 1
+
+#### Experiment variable ####
+n_class: 4
+n_subject: 9
+sampling_rate: 250.0
